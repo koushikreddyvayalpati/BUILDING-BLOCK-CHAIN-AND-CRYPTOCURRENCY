@@ -1,0 +1,193 @@
+{
+    "chain": [
+        {
+            "index": 1,
+            "previous_hash": "0",
+            "proof": 1,
+            "timestamp": "2020-05-19 23:57:03.637768",
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "2e66ff851883bd595f2b7f88f12da00f86f743d6911720244da1fb7e7a7fef18",
+            "proof": 533,
+            "timestamp": "2020-05-20 00:10:18.376576",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "previous_hash": "d0cf4f28379ec17417a60392234f38a201c85234789db62875e94ae3f6cd5ff5",
+            "proof": 45293,
+            "timestamp": "2020-05-20 00:12:57.779765",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        }
+    ],
+    "length": 3
+}
+
+{
+    "message": "The nodes had different chains so the chain was replaced by the longest one.",
+    "new_chain": [
+        {
+            "index": 1,
+            "previous_hash": "0",
+            "proof": 1,
+            "timestamp": "2020-05-19 23:57:03.637768",
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "2e66ff851883bd595f2b7f88f12da00f86f743d6911720244da1fb7e7a7fef18",
+            "proof": 533,
+            "timestamp": "2020-05-20 00:10:18.376576",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "previous_hash": "d0cf4f28379ec17417a60392234f38a201c85234789db62875e94ae3f6cd5ff5",
+            "proof": 45293,
+            "timestamp": "2020-05-20 00:12:57.779765",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "message": "The nodes had different chains so the chain was replaced by the longest one.",
+    "new_chain": [
+        {
+            "index": 1,
+            "previous_hash": "0",
+            "proof": 1,
+            "timestamp": "2020-05-19 23:57:03.637768",
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "2e66ff851883bd595f2b7f88f12da00f86f743d6911720244da1fb7e7a7fef18",
+            "proof": 533,
+            "timestamp": "2020-05-20 00:10:18.376576",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "previous_hash": "d0cf4f28379ec17417a60392234f38a201c85234789db62875e94ae3f6cd5ff5",
+            "proof": 45293,
+            "timestamp": "2020-05-20 00:12:57.779765",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        }
+    ]
+}
+
+
+When all blocks are mined and tranactions are added to send coins to another node, and chains are replaced, in the end we find that each node has the same number of chains of length 5, as seen in this example:
+{
+    "chain": [
+        {
+            "index": 1,
+            "previous_hash": "0",
+            "proof": 1,
+            "timestamp": "2020-05-19 23:57:03.637768",
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "2e66ff851883bd595f2b7f88f12da00f86f743d6911720244da1fb7e7a7fef18",
+            "proof": 533,
+            "timestamp": "2020-05-20 00:10:18.376576",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "previous_hash": "d0cf4f28379ec17417a60392234f38a201c85234789db62875e94ae3f6cd5ff5",
+            "proof": 45293,
+            "timestamp": "2020-05-20 00:12:57.779765",
+            "transactions": [
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "previous_hash": "a3018ea97d1566651c7d83aced7836a95ad8e4dbc77859bece3ef426bbc61172",
+            "proof": 21391,
+            "timestamp": "2020-05-20 00:19:03.120185",
+            "transactions": [
+                {
+                    "amount": 10000,
+                    "receiver": "Crystal",
+                    "sender": "Elio"
+                },
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "previous_hash": "a8cce2d65189a7bf3fdd31a8d0788b05575a91ab5e96a9968f4640bb39dfb60c",
+            "proof": 8018,
+            "timestamp": "2020-05-20 00:23:12.373630",
+            "transactions": [
+                {
+                    "amount": 100000,
+                    "receiver": "Raizel",
+                    "sender": "Elio"
+                },
+                {
+                    "amount": 1,
+                    "receiver": "Elio",
+                    "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+                }
+            ]
+        }
+    ],
+    "length": 5
+}

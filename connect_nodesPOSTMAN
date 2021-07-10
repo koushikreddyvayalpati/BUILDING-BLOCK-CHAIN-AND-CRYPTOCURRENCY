@@ -1,0 +1,28 @@
+//node 1
+
+{
+    "message": "All the nodes are now connected. The Hellcoin Blockchain now contains the following nodes:",
+    "total_nodes": [
+        "127.0.0.1:5002",
+        "127.0.0.1:5003"
+    ]
+}
+
+// node 2
+{
+    "message": "All the nodes are now connected. The Hellcoin Blockchain now contains the following nodes:",
+    "total_nodes": [
+        "127.0.0.1:5001",
+        "127.0.0.1:5003"
+    ]
+}
+
+// node 3
+
+{
+    "message": "All the nodes are now connected. The Hellcoin Blockchain now contains the following nodes:",
+    "total_nodes": [
+        "127.0.0.1:5002",
+        "127.0.0.1:5001"
+    ]
+}

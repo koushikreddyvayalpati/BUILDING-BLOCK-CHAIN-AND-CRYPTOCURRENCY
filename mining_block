@@ -1,0 +1,44 @@
+{
+    "index": 2,
+    "message": "Congratulations, you just mined a block!",
+    "previous_hash": "2e66ff851883bd595f2b7f88f12da00f86f743d6911720244da1fb7e7a7fef18",
+    "proof": 533,
+    "timestamp": "2020-05-20 00:10:18.376576",
+    "transactions": [
+        {
+            "amount": 1,
+            "receiver": "Elio",
+            "sender": "17ddf4b13e4a419f98d4bf4cece4b37c"
+        }
+    ]
+}
+
+{
+    "index": 2,
+    "message": "Congratulations, you just mined a block!",
+    "previous_hash": "c691ecc5f78e593545d06be2a370ab0387192c9967311372637e9b70b30236e4",
+    "proof": 533,
+    "timestamp": "2020-05-20 00:09:58.729836",
+    "transactions": [
+        {
+            "amount": 1,
+            "receiver": "Crystal",
+            "sender": "626ebf2b00f84ad69934a44b98f26601"
+        }
+    ]
+}
+
+{
+    "index": 2,
+    "message": "Congratulations, you just mined a block!",
+    "previous_hash": "87185170587f2aff13c4fb224f99a1219b0fdfade9dd6d5ffdcaaec0916ca34e",
+    "proof": 533,
+    "timestamp": "2020-05-20 00:09:39.823702",
+    "transactions": [
+        {
+            "amount": 1,
+            "receiver": "Raizel",
+            "sender": "9f97c433c0a74a9785370dfe4efd293f"
+        }
+    ]
+}
